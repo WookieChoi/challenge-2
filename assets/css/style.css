@@ -1,0 +1,46 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS';
+    background-color: gray;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    padding: 10px;
+    font-size: 48px;
+    background-color: turquoise;
+}
+
+header nav {
+    padding-top: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: 'Calibri';
+    float: right;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+a {
+    color: white;
+}
+
+main

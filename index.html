@@ -13,11 +13,11 @@
 <!--body-->
 <body>
     <!--header-->
-    <header>
+    <header class="container">
         <!--name on top-->
         <h1>Hyun Wook Choi</h1>
         <!--navigation bar-->
-        <nav>
+        <nav class="links">
             <ul>
                 <li>
                     <a href="#about-me">About Me</a>
@@ -29,46 +29,57 @@
                     <a href="#contact-me">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a href="https://www.imgflip.com/memegenerator">Resume</a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <!--banner image-->
-    <figure class="banner"></figure>
+    <figure class="banner">
+        <img id="outer-space" src="./assets/images/space-banner.jpg" alt="Picture of Outer Space" width="100%" height="400px">
+    </figure>
     <!--main content-->
     <main class="content">
         <!--about me-->
         <article id="about-me" class="about-me">
             <h2>About Me</h2>
+            <img id="kermit-the-frog" src="./assets/images/kermit.jpg" alt="Kermit the Frog, Self-portrait" width="100px" height="100px">
             <p>
-                blah blah blah temp info
+                Hi, my name is Hyun Wook Choi or Hyun for short. I am (going to be) a full 
+                stack web developer. I am (going to be) a Georgia Tech Bootcamp graduate. 
+                Designing games and websites is my passion. I love figuring out the logic 
+                of how things work. My JavaScript skills are godlike (ignore my HTML and 
+                CSS skills), and you should totally hire me. 
             </p>
         </article>
 
         <!--work-->
-        <article id="work" class="work">
+        <article class="work">
             <h2>Work</h2>
-            <p>
-                blah blah blah temp info
-            </p>
+            <section class="work-card">
+                <button>
+                    <img id="chess-pieces" src="./assets/images/chess.jpg" alt="Chess Pieces" width="100px" height="100px">
+                </button>
+                <button>
+                    <img id="calculator-app" src="./assets/images/calculator.jpg" alt="Calculator Instrument" width="100px" height="100px">
+                </button>
+                <button>
+                    <img id="daily-story" src="./assets/images/mapleleaves.jpg" alt="Maple Leaves" width="100px" height="100px">
+                </button>
+                <button>
+                    <img id="lol-tracker" src="./assets/images/lcs-stage.jpg" alt="LCS Stage" width="100px" height="100px">
+                </button>
+            </section>
         </article>
 
         <!--contact us-->
         <article id="contact-me" class="contact-me">
             <h2>Contact Me</h2>
-            <p>
-                blah blah blah temp info
-            </p>
         </article>
 
         <!--resume-->
         <article id="resume" class="resume">
-            <h2>Resume</h2>
-            <p>
-                blah blah blah temp info
-            </p>
         </article>
     </main>
 
